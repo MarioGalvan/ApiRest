@@ -1,4 +1,5 @@
 const {request, response } = require("express");
+const Usuario = require('../models/usuario');
 
 const getUser = (req=request, res = response) => {
   res.json({
@@ -9,9 +10,11 @@ const getUser = (req=request, res = response) => {
 
 const postUser = (req, res = response) => {
   const body = req.body;
+  const user = new Usuario(body);
+
   res.json({
     status: 200,
-    message: body,
+    message: user
   });
 };
 
