@@ -1,8 +1,3 @@
-# ApiRest
+# WebServer + RestServer
 
-Rest Api | Node js | Typescript | Mongoose | sequelize
-
-
-# Scripts
-
-yarn run dev
+Recuerden que deben de ejecutar ```npm install``` para reconstruir los módulos de Node.
