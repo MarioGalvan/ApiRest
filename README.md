@@ -1,3 +1,9 @@
-# WebServer + RestServer
+# Node Rest Api
 
-Recuerden que deben de ejecutar ```npm install``` para reconstruir los módulos de Node.
+* Node js
+* Typescript
+* Mysql (sequelize)
+* Mongodb (mongoose)
+* JWT
+* Socket
+* Express
